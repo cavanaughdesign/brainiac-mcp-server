@@ -1,4 +1,3 @@
-# brainiac-mcp-server
 # Brainiac MCP Server
 
 The Brainiac MCP Server is a sophisticated cognitive computing engine that leverages the Model Context Protocol (MCP) to deliver human-like reasoning capabilities. It combines advanced natural language processing, dynamic memory management, and adaptive learning to provide an extensible platform for complex problem-solving and knowledge synthesis.

@@ -1,4 +1,4 @@
-# 🧠 Brainiac MCP Server: The Revolutionary AI That Thinks Like You!
+# 🧠 Brainiac MCP Server: The Revolutionary AI That Thinks Like You! Avalabile 6/4/2025
 
 ### ⚡ **BREAKTHROUGH COGNITIVE AI** - Now with Multimodal Intelligence & Real-Time Learning
 

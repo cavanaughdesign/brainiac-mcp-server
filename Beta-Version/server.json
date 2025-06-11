@@ -1,0 +1,52 @@
+{
+  "name": "brainiac-mcp-server",
+  "version": "0.1.0",
+  "description": "Brainiac MCP Server - Human-like reasoning engine with working memory capabilities",
+  "author": "MCP Engineer",
+  "license": "MIT",
+  "homepage": "https://github.com/mcp-engineer/brainiac-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-engineer/brainiac-mcp-server.git"
+  },
+  "mcpServers": {
+    "brainiac": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": ".",
+      "env": {},
+      "capabilities": {
+        "tools": [
+          {
+            "name": "reason",
+            "description": "Perform complex reasoning on a given query with working memory integration"
+          },
+          {
+            "name": "memory_store",
+            "description": "Store information in working memory"
+          },
+          {
+            "name": "memory_retrieve",
+            "description": "Retrieve information from working memory"
+          },
+          {
+            "name": "cognitive_state",
+            "description": "Get current cognitive state including working memory and active processes"
+          }
+        ],
+        "resources": [
+          {
+            "uri": "memory://working",
+            "name": "Working Memory",
+            "description": "Current working memory contents"
+          },
+          {
+            "uri": "state://cognitive",
+            "name": "Cognitive State",
+            "description": "Current cognitive processing state"
+          }
+        ]
+      }
+    }
+  }
+}
